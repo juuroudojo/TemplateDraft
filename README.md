@@ -58,4 +58,20 @@ npx hardhat run scripts/deploy.ts --network localhost
  - 🥝  [Deploy a token](https://github.com/camino-builder/tree/token)
  - 🍓  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
 
+## Put it to test
+
+Tests are important.Surprisingly, they are also a good place to learn how the ecosystem is designed to work. You can also learn some interesting techniques and tools making testing process fun. 
+
+-  [Testing NFT](https://github.com/camino-builder/tree/testing-nft)
+-  [Testing Staking](https://github.com/camino-builder/tree/testing-staking)
+-  [Testing Token](https://github.com/camino-builder/tree/testing-token)
+-  [Testing Liquidity Pool](https://github.com/camino-builder/tree/testing-liquidity-pool)
+
+
+## Contact Us
+
+We are always happy to help you learn. If you want some additional support or want to contribute reach out to us on [Discord](discord.gg).
+  
+
+
 
