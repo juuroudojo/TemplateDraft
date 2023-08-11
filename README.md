@@ -33,20 +33,20 @@ cd camino-builder
 npm install
 
 
-3. Create a `.env` file in the root directory and configure it with your MetaMask wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
+Create a `.env` file in the root directory and configure it with your MetaMask wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
 
 ```dotenv
 PRIVATE_KEY="your_private_key"
 COLUMBUS_API_KEY="your_columbus_api_key"
 ```
 
-4. Compile the smart contracts:
+Compile the smart contracts:
 
 ```bash
 npx hardhat compile
 ```
 
-5. Deploy the contracts to a local test network or a public testnet using Hardhat:
+Deploy the contracts to a local test network or a public testnet using Hardhat:
 
 ```bash
 npx hardhat run scripts/deploy.ts --network localhost
