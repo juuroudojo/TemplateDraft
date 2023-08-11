@@ -1,6 +1,6 @@
-# 🏗 Camino Builder
+# 🌎 Camino Builder
 
-🧪 Learn how to deploy and work with smart contracts on Camino network. Dive into different features and techniques employed in smart contracts. This repo will walk you through all of it and teach you how to build the travel industry of the future in simple terms.
+🏬 Learn how to deploy and work with smart contracts on Camino network. Dive into different features and techniques employed in smart contracts. This repo will walk you through all of it and teach you how to build the travel industry of the future in simple terms.
 
 
 ## Contents
