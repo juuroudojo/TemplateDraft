@@ -52,7 +52,6 @@ npx hardhat compile
 npx hardhat run scripts/deploy.ts --network localhost
 ```
 
-```
 ## Start Building
  - 🍋  [Create your first NFT](https://github.com/camino-builder/tree/nft)
  - 🍇  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
