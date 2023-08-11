@@ -21,7 +21,7 @@ Before you begin, you need to install the following tools:
 
 ## Quickstart
 
-To get started with Scaffold-ETH 2, follow the steps below:
+To get started with Camino Builder, follow the steps below:
 Clone this repo & install dependencies
 
 ```
