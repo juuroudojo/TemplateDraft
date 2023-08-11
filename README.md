@@ -15,9 +15,12 @@
 
 Before you begin, you need to install the following tools:
 
-- [Node (v18 LTS)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
+To run and interact with these projects, you will need:
+
+- [Node.js](https://nodejs.org/en/download/) (version 14.x or higher)
+- [npm](https://www.npmjs.com/get-npm) (usually bundled with Node.js)
+- [Hardhat](https://hardhat.org/getting-started/#overview) development environment
+- [Camino Wallet](https://wallet.camino.foundation/)
 
 ## Quickstart
 
@@ -27,7 +30,28 @@ Clone this repo & install dependencies
 ```
 git clone https://github.com/camino-builder
 cd camino-builder
-yarn install
+npm install
+
+
+3. Create a `.env` file in the root directory and configure it with your MetaMask wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
+
+```dotenv
+PRIVATE_KEY="your_private_key"
+COLUMBUS_API_KEY="your_columbus_api_key"
+```
+
+4. Compile the smart contracts:
+
+```bash
+npx hardhat compile
+```
+
+5. Deploy the contracts to a local test network or a public testnet using Hardhat:
+
+```bash
+npx hardhat run scripts/deploy.ts --network localhost
+```
+
 ```
 ## Start Building
  - 🍋  [Create your first NFT](https://github.com/camino-builder/tree/nft)
