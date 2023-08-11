@@ -41,7 +41,7 @@ cd camino-builder
 npm install
 
 
-Create a `.env` file in the root directory and configure it with your MetaMask wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
+Create a `.env` file in the root directory and configure it with your Camino wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
 
 ```dotenv
 PRIVATE_KEY="your_private_key"
